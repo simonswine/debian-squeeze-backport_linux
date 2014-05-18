@@ -1,5 +1,5 @@
 [abi]
-abiname: 4
+abiname: 0.bpo.4
 ignore-changes:
  module:net/l2tp/*
 # A bunch of NFS/SunRPC exports, not selected by module because MIPS has
@@ -74,7 +74,7 @@ arches:
  sh4
  sparc
  sparc64
-compiler: gcc-4.6
+compiler: gcc-4.4
 featuresets:
  none
  rt
